@@ -1,0 +1,111 @@
+.container {
+    display: grid;
+    place-items: center;
+}
+
+form {
+    margin-bottom: .2rem;
+}
+
+#form-row {
+    flex-wrap: unset;
+}
+
+#bookLogo {
+    display: block;
+    height: 150px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    outline: none;
+}
+
+.book {
+    clear: both;
+}
+
+.imageDiv {
+    float: left;
+    margin-right: 1rem;   
+}
+
+.image {
+    border: 1px solid #e6e6e6;
+}
+
+img {
+    height: 130px;
+    width: 80px;
+}
+
+.textDiv {
+    float: left;
+}
+
+.title {
+    font-size: 20px;
+    color: #1967D2;
+}
+
+.author {
+    font-size: 14px;
+}
+
+#preview {
+    background: none;
+    color: black;
+    border-radius: 5rem;
+    border: 1px solid #b3b3b3;
+    outline: none;
+    font-size: .8rem;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+    #bookLogo {
+        height: 120px;
+        width: 150px;
+    }
+
+    .searchText {
+        font-size: 13px;
+    }
+
+    .book {
+        background-color: #fff;
+        margin: 0 0 10px 0;
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        border-radius: 8px;
+        clear: both;
+        padding: 16px 11px 16px;
+    }
+
+    img {
+        height: 90px;
+        width: 63px;
+    }
+
+    .textDiv {
+        float: none;
+        margin-left: 5rem;
+    }
+
+    .title {
+        font-size: 14px;
+        color: #1967D2;
+    }
+
+    .author {
+        font-size: 12px;
+    }
+
+    #preview {
+        font-size: .6rem;
+    }
+}

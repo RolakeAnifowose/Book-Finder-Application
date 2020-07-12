@@ -1,0 +1,12 @@
+{
+  "name": "book-finder",
+  "version": "1.0.0",
+  "description": "Simple book finder application built with HTML, CSS, Bootstrap and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Airat Anifowose",
+  "license": "ISC",
+  "dependencies": {}
+}
