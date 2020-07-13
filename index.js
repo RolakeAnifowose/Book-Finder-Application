@@ -2,7 +2,7 @@ function getBooks(event) {
     event.preventDefault();
     let searchProperty = document.getElementById('searchInput').value;
     let api = 'https://www.googleapis.com/books/v1/volumes?q=';
-    let apiKey = '&key=AIzaSyCGIXAmK28315Xlfb7za5S6GiofWoBCVx8';
+    let apiKey = ‘&key=//insert your Google Books API key here';
     let maxResult = '&max-results=5';
     let url = api + searchProperty + apiKey + maxResult;
 
